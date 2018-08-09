@@ -1,1 +1,24 @@
+puts "What calculation do you want to do? (add,sub,mult,div) "
+calc= gets.chomp
 
+
+puts "What is your first number?"
+num1= gets.chomp
+puts "What is your second number?"
+num2= gets.chomp.to_i
+
+if calc=='add'
+num1+num2
+elsif calc=='sub'
+num1-num2
+elsif calc=='mult'
+num1*num2
+elsif calc=='div'
+num1/num2
+else
+puts "invalid operator"
+end
+
+
+
+puts answer
